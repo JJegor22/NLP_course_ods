@@ -1,5 +1,4 @@
 # Semantic segmentation of natural language texts using named entity recognition
-This study was conducted by Shulgin Egor and Vorsin Egor
 ### Abstract
 This paper is devoted to the creation of an algorithm for automatic
 segmentation and classification of texts in natural language, based on the
