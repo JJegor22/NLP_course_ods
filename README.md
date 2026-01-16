@@ -16,7 +16,7 @@ Thus, an important problem that is being solved in this work is the creation of 
 The novelty of the research lies in the fact that an approach to solving the TATS task based on solving NER (Named Entity Recognition) task is proposed.
 ## 1.1 Team
 - Shulgin Egor Preparation of the project architecture idea, analysis of existing approaches, creation of the model based on the perceptron architecture, preparation of the report.
-- Vorsin Egor Analysis of existing approaches, creation of a data processing pipeline, experiments with adding LSTM and CRF layers to the model, preparation of the repository.
+- Vorsin Egor Analysis of existing approaches, creation of a data processing pipeline, experiments with adding LSTM layers to the model, preparation of the repository.
 
 # 2. Model Description
 In the beginning, we will prove why the TATS problem can be solved through the NER problem. Let us look at the formulations of both tasks. For the TATS task: divide the text into disjoint semantically related parts and assign each of these parts a class from a predefined set. For the NER task: select from the text the parts semantically related to a certain class from a predefined set. The equivalence of statements is achieved if we perceive segments as named entities and require the markup of the text to continuously fill in the entire text.
